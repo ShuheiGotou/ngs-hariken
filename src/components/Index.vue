@@ -6,6 +6,7 @@
 
 <script>
 import AllProblemsPage from './AllProblemsPage';
+import notification from '../function/notification';
 
 export default {
   name: 'index',
@@ -13,6 +14,9 @@ export default {
     return {
       pageStack: [AllProblemsPage],
     };
+  },
+  created() {
+    notification.initialize(this);
   },
 };
 </script>

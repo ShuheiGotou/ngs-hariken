@@ -1,6 +1,6 @@
 import axios from 'axios';
 import ons from 'onsenui';
-import { WEB_API_URL } from '../../.env';
+import { WEB_API_URL, ROLE } from '../../.env';
 
 /* global FCMPlugin */
 const app = {
@@ -17,6 +17,7 @@ const app = {
       (token) => {
         const data = {
           device_token: token,
+          role: ROLE,
         };
         axios.put(`${WEB_API_URL}/v1/users/me/device_token`, data, config)
             .then((response) => {
