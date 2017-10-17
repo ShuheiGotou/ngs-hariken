@@ -174,7 +174,7 @@ export default {
  #post-btn{
    display: block;
    width: 80px;
-   margin-left: auto;
+   margin-right: 10%;
    margin-bottom: 10px;
  }
 .bottom-bar{
@@ -198,6 +198,7 @@ export default {
 .post-problem-btn {
   background-color: #2bb46e;
   color: #fff;
+  margin-right: 10%;
   padding-left: 15px;
   padding-right: 15px;
   border-radius: 15px;
@@ -205,6 +206,7 @@ export default {
 .translate-btn {
   background-color: #2bb46e;
   color: #fff;
+  margin-left: 10%;
   padding-left: 15px;
   padding-right: 15px;
   border-radius: 15px;
