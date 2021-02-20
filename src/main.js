@@ -8,7 +8,7 @@ import Vue from 'vue';
 import VueOnsen from 'vue-onsenui';
 import * as VueGoogleMaps from 'vue2-google-maps';
 
-import './style.css';
+import './style.scss';
 
 import router from './router';
 import App from './App';

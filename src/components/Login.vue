@@ -51,6 +51,7 @@ export default {
 </script>
 
 <style>
+
 #login-form {
   background-color: #FFF;
   width: 250px;
@@ -61,7 +62,7 @@ export default {
 }
 
 .background {
-  background-color: #2bb46e;
+  background-color: $color-background;
 }
 
 </style>
